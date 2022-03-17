@@ -1,0 +1,26 @@
+/* #000000 background header-up
+#1F1F1F background new-game
+#BEBCBB background ps-plus
+#161C3B background ps-now
+#00439C background footer
+#363636 background btn-header-down
+#CD3D0F background btn-jumbo and btn-game
+#D9DADC background btn-ps-plus
+#2D64E6 background btn-ps5 and btn-ps4
+#F5F5F5 background btn-ps-now */
+:root {
+    --bg-head: #000000;
+    --bg-new-game: #1F1F1F;
+    --bg-ps-plus: #BEBCBB;
+    --bg-ps-now: #161C3B;
+    --bg-footer: #00439C;
+    --bg-btn-head: #363636;
+    --bg-btn-jumbo: #CD3D0F;
+    --bg-btn-ps-plus: #D9DADC;
+    --bg-btn-ps5: #2D64E6;
+    --bg-btn-ps-now: #F5F5F5;
+    --text-blue: #147DD1;
+    --text-title: #1F1F1F;
+    --text-subtitle: #7A7A7A;
+    --text-white: #FFFFFF;
+}
