@@ -155,3 +155,47 @@ main {
     background-color: var(--bg-btn-jumbo);
     margin: 15px 0;
 }
+
+/* new game */
+#new-game {
+    width: 100%;
+    background-color: var(--bg-new-game);
+    padding: 35px 0;
+}
+
+#new-game .carta {
+    padding: 10px 0;
+}
+
+#new-game .carta img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+#new-game .carta p {
+    padding: 10px 0;
+}
+
+/* ps4 */
+#ps4 img {
+    width: 100%;
+}
+
+#ps4 .button {
+    background-color: var(--bg-btn-ps5);
+}
+
+#ps4 p {
+    color: var(--text-subtitle);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* ps-plus */
+#ps-plus {
+    background-color: var(--bg-btn-ps-plus);
+}
+
+#ps-plus img {
+    width: 100%;
+}
