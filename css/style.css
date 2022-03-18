@@ -54,6 +54,24 @@ header .header-up {
     height: auto;
 }
 
+nav {
+    position: relative;
+}
+
+.my-dropdown-menu {
+    border: none;
+    border-radius: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.my-dropdown-menu[data-bs-popper]{
+    margin-top: 0;
+    border-radius: 0;
+    width: 100%;
+}
+
 /* main */
 main {
     padding: 100px 0;
