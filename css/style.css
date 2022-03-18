@@ -219,3 +219,22 @@ main {
 #ps-store img {
     width: 100%;
 }
+
+/* ps-now */
+#ps-now {
+    width: 100%;
+    background-color: var(--bg-ps-now);
+}
+
+#ps-now img {
+    width: 100%;
+}
+
+#ps-now .ps-plus-logo {
+    width: 80%;
+}
+
+#ps-now .button {
+    background-color: var(--bg-btn-ps-now);
+    color: var(--text-title);
+}
