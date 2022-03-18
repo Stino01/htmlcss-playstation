@@ -61,9 +61,6 @@ nav {
 .my-dropdown-menu {
     border: none;
     border-radius: 0;
-    position: absolute;
-    left: 0;
-    right: 0;
 }
 
 .my-dropdown-menu[data-bs-popper]{
@@ -71,6 +68,15 @@ nav {
     border-radius: 0;
     width: 100%;
 }
+
+.dropdown-item {
+    width: auto;
+}
+
+.dropdown {
+    position: static;
+}
+
 
 /* main */
 main {
