@@ -238,3 +238,14 @@ main {
     background-color: var(--bg-btn-ps-now);
     color: var(--text-title);
 }
+
+/* social */
+#social img {
+    width: 100%;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    background-color: var(--bg-footer);
+}
