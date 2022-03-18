@@ -61,7 +61,7 @@ main {
     height: 590px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
-    
+    background-position-x: center;
 }
 
 #jumbotron .container {
@@ -193,9 +193,29 @@ main {
 
 /* ps-plus */
 #ps-plus {
-    background-color: var(--bg-btn-ps-plus);
+    background-color: var(--bg-ps-plus);
 }
 
 #ps-plus img {
+    width: 100%;
+}
+
+#ps-plus .ps-plus-logo {
+    width: 80%;
+}
+
+#ps-plus .button {
+    background-color: var(--bg-btn-ps-plus);
+    color: var(--text-blue);
+}
+
+/* ps-store */
+#ps-store p {
+    color: var(--text-subtitle);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#ps-store img {
     width: 100%;
 }
