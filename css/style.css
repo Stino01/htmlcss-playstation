@@ -28,6 +28,10 @@ body {
     border-radius: 20px;
 }
 
+.img-100 {
+    width: 100%;
+}
+
 /* header */
 header {
     width: 100%;
@@ -69,8 +73,8 @@ main {
 }
 
 #jumbotron .row {
-    padding: 20px 0;
     height: 100%;
+    padding: 20px 0;
 }
 
 #jumbotron img {
@@ -96,12 +100,7 @@ main {
     padding: 15px 0;
 }
 
-#ps5 img {
-    width: 100%;
-}
-
 #ps5 .box img {
-    width: 100%;
     border-radius: 15px;
 }
 
@@ -177,10 +176,6 @@ main {
 }
 
 /* ps4 */
-#ps4 img {
-    width: 100%;
-}
-
 #ps4 .button {
     background-color: var(--bg-btn-ps5);
 }
@@ -194,10 +189,6 @@ main {
 /* ps-plus */
 #ps-plus {
     background-color: var(--bg-ps-plus);
-}
-
-#ps-plus img {
-    width: 100%;
 }
 
 #ps-plus .ps-plus-logo {
@@ -216,18 +207,10 @@ main {
     font-weight: 600;
 }
 
-#ps-store img {
-    width: 100%;
-}
-
 /* ps-now */
 #ps-now {
     width: 100%;
     background-color: var(--bg-ps-now);
-}
-
-#ps-now img {
-    width: 100%;
 }
 
 #ps-now .ps-plus-logo {
@@ -237,11 +220,6 @@ main {
 #ps-now .button {
     background-color: var(--bg-btn-ps-now);
     color: var(--text-title);
-}
-
-/* social */
-#social img {
-    width: 100%;
 }
 
 /* footer */
