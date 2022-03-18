@@ -249,3 +249,27 @@ footer {
     width: 100%;
     background-color: var(--bg-footer);
 }
+
+footer .container {
+    padding: 100px 0;
+}
+
+.footer-logo {
+    width: 100px;
+}
+
+.lenguage {
+    width: 30px;
+}
+
+.sony {
+    width: 140px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    padding: 5px 0;
+}
