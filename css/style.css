@@ -40,7 +40,7 @@ header {
     top: 0;
     left: 0;
     z-index: 1000;
-    background-color: var(--bg-head-down);
+    background-color: white;
 }
 
 header .header-up {
@@ -77,6 +77,14 @@ nav {
     position: static;
 }
 
+header .button {
+    background-color: var(--bg-btn-head);
+}
+
+header .lens {
+    width: 30px;
+    height: auto;
+}
 
 /* main */
 main {
