@@ -19,11 +19,30 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 /* classi ripetute */
 .button {
     display: inline-block;
     padding: 8px 10px;
     color: var(--text-white);
+    margin: 3px;
+}
+.full-button a {
+    padding: 2px;
+    display: inline-block;
+    transition: all .2s ease-in-out;
+    margin: 0.25rem;
+    border-radius: 2rem;
+}
+
+.full-button a:hover {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--bg-btn-ps5)!important;
+}
+
+#jumbotron .full-button a:hover,
+#game .full-button a:hover {
+    box-shadow: 0 0 0 2px var(--bg-btn-jumbo)!important;
 }
 
 /* header */
@@ -117,7 +136,6 @@ main {
 
 #jumbotron .button {
     background-color: var(--bg-btn-jumbo);
-    margin: 15px 0;
 }
 
 /* ps5 */
@@ -200,7 +218,6 @@ main {
 
 #game .button {
     background-color: var(--bg-btn-jumbo);
-    margin: 15px 0;
 }
 
 /* new game */
@@ -218,6 +235,7 @@ main {
     width: 100%;
     border-radius: 15px;
     box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5);
+    transition: linear 0.5s;
 }
 
 #new-game .carta img:hover {
