@@ -24,12 +24,6 @@ body {
     display: inline-block;
     padding: 8px 10px;
     color: var(--text-white);
-    border: none;
-    border-radius: 20px;
-}
-
-.img-100 {
-    width: 100%;
 }
 
 /* header */
@@ -56,6 +50,10 @@ header .header-up {
 
 nav {
     position: relative;
+}
+
+.bg-light {
+    background-color: var(--bg-head-down)!important;
 }
 
 .my-dropdown-menu {
@@ -100,17 +98,12 @@ main {
     background-position-x: center;
 }
 
-#jumbotron .container {
-    height: 100%;
-}
-
 #jumbotron .row {
-    height: 100%;
-    padding: 20px 0;
+    padding: 200px 0 30px;
 }
 
 #jumbotron img {
-    width: 100%;
+    width: 60%;
 }
 
 #jumbotron .col-12 h1 {
@@ -129,11 +122,16 @@ main {
 
 /* ps5 */
 #ps5 .box {
-    padding: 15px 0;
+    margin-top: 25px;
 }
 
 #ps5 .box img {
     border-radius: 15px;
+}
+
+#ps5 .box:hover {
+    position: relative;
+    bottom: 20px;
 }
 
 #ps5 .button {
@@ -156,8 +154,26 @@ main {
     color: var(--text-blue);
 }
 
-#ps5 .attivo {
-    border-bottom: 2px solid var(--text-blue);
+#ps5 .lens img {
+    opacity: 0.5;
+}
+
+#ps5 .lens:hover img {
+    opacity: 1;
+    transition: linear 0.5s;
+}
+
+
+#ps5 .active {
+    padding: 3px;
+    border: 3px solid var(--text-blue);
+    border-radius: 15px;
+    opacity: 1;
+}
+
+
+#ps5 .active img {
+    opacity: 1;
 }
 
 /* game */
@@ -201,6 +217,13 @@ main {
 #new-game .carta img {
     width: 100%;
     border-radius: 15px;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5);
+}
+
+#new-game .carta img:hover {
+    width: 110%;
+    position: relative;
+    right: 4%;
 }
 
 #new-game .carta p {
