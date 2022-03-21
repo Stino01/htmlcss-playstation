@@ -326,6 +326,26 @@ footer ul li {
 }
 
 /* bonus page */
+#jumbotron .returnal {
+    padding-top: 40px;
+}
+#jumbotron .returnal h1{
+    padding: 0;
+}
+#jumbotron .returnal h2{
+    font-size: 14px;
+}
+#jumbotron .returnal .console{
+    border: 1px solid white;
+    padding: 2px 5px;
+}
+#jumbotron .returnal .heart{
+    background-color: var(--bg-btn-head);
+}
+#jumbotron .returnal span{
+    font-size: 12px;
+}
+
 #slider {
     background: rgb(13,19,24);
     background: linear-gradient(0deg, rgba(13,19,24,1) 0%, rgba(0,0,0,1) 100%);
@@ -358,5 +378,23 @@ footer ul li {
 }
 
 #description p{
+    font-size: 14px;
+}
+
+#feature img {
+    border-radius: 10px;
+    margin: 5px 0;
+}
+
+#feature h2 {
+    font-size: 18px;
+}
+
+#feature li::marker {
+    color: var(--text-blue);
+    list-style-type: circle;
+}
+
+#feature li {
     font-size: 14px;
 }
